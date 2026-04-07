@@ -60,6 +60,6 @@ class LivewireSupportTicketsServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__ . '/../config/config.php', 'livewire-support-tickets');
 
         // Register the main class to use with the facade
-        $this->app->singleton('livewire-support-tickets', fn(): \Centrex\LivewireSupportTickets\LivewireSupportTickets => new LivewireSupportTickets());
+        $this->app->singleton('livewire-support-tickets', fn (): LivewireSupportTickets => new LivewireSupportTickets());
     }
 }
