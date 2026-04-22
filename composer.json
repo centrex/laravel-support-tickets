@@ -1,12 +1,12 @@
 {
-    "name": "centrex/livewire-support-tickets",
-    "description": "This is my package livewire-support-tickets",
+    "name": "centrex/laravel-support-tickets",
+    "description": "This is my package laravel-support-tickets",
     "keywords": [
         "centrex",
         "laravel",
-        "livewire-support-tickets"
+        "laravel-support-tickets"
     ],
-    "homepage": "https://github.com/centrex/livewire-support-tickets",
+    "homepage": "https://github.com/centrex/laravel-support-tickets",
     "license": "MIT",
     "type": "library",
     "authors": [
