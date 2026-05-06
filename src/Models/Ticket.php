@@ -26,6 +26,7 @@ class Ticket extends Model
         'closed_at' => 'datetime',
     ];
 
+    #[\Override]
     protected static function boot()
     {
         parent::boot();

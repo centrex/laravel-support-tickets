@@ -54,6 +54,7 @@ class LivewireSupportTicketsServiceProvider extends ServiceProvider
     /**
      * Register the application services.
      */
+    #[\Override]
     public function register(): void
     {
         // Automatically apply the package configuration

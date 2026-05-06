@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Facade;
  */
 class LivewireSupportTickets extends Facade
 {
+    #[\Override]
     protected static function getFacadeAccessor()
     {
         return \Centrex\LivewireSupportTickets\LivewireSupportTickets::class;

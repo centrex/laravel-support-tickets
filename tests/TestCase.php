@@ -10,6 +10,7 @@ use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
+    #[\Override]
     protected function setUp(): void
     {
         parent::setUp();
@@ -19,6 +20,7 @@ class TestCase extends Orchestra
         );
     }
 
+    #[\Override]
     protected function getPackageProviders($app)
     {
         return [
@@ -26,6 +28,7 @@ class TestCase extends Orchestra
         ];
     }
 
+    #[\Override]
     public function getEnvironmentSetUp($app): void
     {
         config()->set('database.default', 'testing');
